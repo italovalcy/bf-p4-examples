@@ -1,3 +1,4 @@
+bfrt.tna_basic.pipe.MyIngress.forward.clear()
 bfrt.tna_basic.pipe.MyIngress.forward.add_with_output(dst_addr=0x000000000002, port=0)
 bfrt.tna_basic.pipe.MyIngress.forward.add_with_output(dst_addr=0x000000000001, port=4)
 bfrt.tna_basic.pipe.MyIngress.forward.add_with_output(dst_addr=0x000000000003, port=8)
